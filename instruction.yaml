@@ -1,0 +1,19 @@
+zh:
+    instruction: "请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    instruction_TA_ARE: "今天是{TODAY}。请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。以下为例子：{EXAMPLE}\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    instruction_zzy: "请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。注意标签表示该问题的所属领域。标签：{LABEL}\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    instruction_zzy_time: "今天是{TODAY}。请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。注意标签表示该问题的所属领域。标签：{LABEL}\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    example: "Question: 2023年U20男足世界杯的东道主是哪个国家？\n Answer: 阿根廷\n\n"
+#    "Question: 梅西在2021美洲杯足球赛中获得了哪两个奖项？\n Answer: 金球奖和金靴奖\n\n"
+en:
+    instruction: "Please read the following document carefully and answer the questions directly. Answers should be concise and contain only direct answers to the questions. If there is not enough information in the document to answer the question, answer 'There is not enough information in the document to answer the question.' \n\nQuestion: {QUERY}\n\nDocumentation: {DOCS}\n\nAnswer: "
+    instruction_TA_AGE: "Today is {TODAY}. Please read the following document carefully and answer the questions directly. Answers should be concise and contain only direct answers to the questions. If there is not enough information in the documentation to answer the question, answer 'There is not enough information in the documentation to answer the question'. The following are examples: {EXAMPLE}\n\nQuestion: {QUERY}\n\nDocumentation: {DOCS}\n\nAnswer: "
+    instruction_zzy: "Please read the following document carefully and answer the questions directly. Answers should be concise and contain only direct answers to the questions. If there is not enough information in the documentation to answer the question, please answer 'There is not enough information in the documentation to answer the question'. Note that labels indicate the domain to which the question belongs. Label: {LABEL}\n\nQuestion: {QUERY}\n\nDocument: {DOCS}\n\nAnswer: "
+    example: "Question: Which country will host the U20 Men's World Cup in 2023? \n Answer: Argentina\n\n"
+#    "Question: Which two awards did Lionel Messi win at the Copa America 2021 soccer tournament? \n Answer: Golden Ball Award and Golden Boot Award\n\n"
+zh_ori:
+    instruction: "请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    instruction_TA_ARE: "今天是{TODAY}。请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。以下为例子：{EXAMPLE}\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    instruction_zzy: "请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。注意标签表示该问题的所属领域。标签：{LABEL}\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    instruction_zzy_time: "今天是{TODAY}。请仔细阅读以下文档，并直接回答问题。回答应该简洁明了，只包含问题的直接答案。如果文档中没有足够的信息来回答问题，请回答'文档信息不足，无法回答该问题'。注意标签表示该问题的所属领域。标签：{LABEL}\n\n问题：{QUERY}\n\n文档：{DOCS}\n\n回答： "
+    example: "Question: 2023年U20男足世界杯的东道主是哪个国家？\n Answer: 阿根廷\n\n"
